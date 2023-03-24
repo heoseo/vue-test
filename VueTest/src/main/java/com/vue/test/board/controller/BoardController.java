@@ -25,6 +25,7 @@ public class BoardController {
 	public ResultVO getBoardList() {
 		LOG.info("[GET] getBoardList");
 
+
 		ResultVO result = new ResultVO(false, null);
 
 		try {
